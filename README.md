@@ -1,5 +1,9 @@
 # Manipulando E-mails no Apache NiFi 2.0 com Python
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Renatoelho/nifi-python-email-processadores/main/imagens/banner.png" alt="Banner do Projeto">
+</p>
+
 Este projeto demonstra como implementar dois processadores personalizados utilizando **Python** no **Apache NiFi 2.0**, com foco na manipulação de **e-mails** via servidor IMAP. A ideia é extrair e-mails do servidor conforme vão chegando via processador **ConsumeIMAP**, transformá-los em JSON estruturado, incluindo opcionalmente os anexos em base64, e depois reverter esse conteúdo dos anexos originais para usos diversos, como análise e compreensão com **LLMs/GenIA** por exemplo.
 
 ## Apresentação em Vídeo
