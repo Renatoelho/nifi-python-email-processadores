@@ -89,7 +89,7 @@ Este processador faz o caminho inverso: ele recebe os arquivos JSON gerados pelo
 ### Infra no Docker via Docker Compose
 
 ```bash
-docker compose -p atendimento-agentes-ia -f docker-compose.yaml up -d
+docker compose -p nifi-python-email -f docker-compose.yaml up -d
 ```
 
 ### Implementação dos processadores
