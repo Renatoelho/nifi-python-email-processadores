@@ -90,7 +90,17 @@ Este processador faz o caminho inverso: ele recebe os arquivos JSON gerados pelo
 
 ## Deploy 
 
-### Infra no Docker via Docker Compose
+### Clonando e Acessando o Repositório do Projeto
+
+```bash
+git clone https://github.com/Renatoelho/nifi-python-email-processadores.git nifi-python-email-processadores
+```
+
+```bash
+cd nifi-python-email-processadores
+```
+
+### Ativando a Infra no Docker via Docker Compose
 
 ```bash
 docker compose -p nifi-python-email -f docker-compose.yaml up -d
